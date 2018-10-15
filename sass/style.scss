@@ -958,8 +958,8 @@ form {
 .simply-countdown > .simply-section {
     /* coutndown blocks */
     display: inline-block;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     background: rgba($brand-primary,.8);
     margin: 0 4px;
     @include border-radius(50%);
@@ -978,8 +978,8 @@ form {
     /* countdown block inner div */
     display: table-cell;
     vertical-align: middle;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -991,14 +991,13 @@ form {
 
 .simply-countdown > .simply-section .simply-amount {
 	font-size: 30px;
-	line-height: 1.2 !important;
     /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
 	color: rgba($brand-white,.7);
 	text-transform: uppercase;
-	font-size: 11px;
+	font-size: 12px;
     /* words */
 }
 
